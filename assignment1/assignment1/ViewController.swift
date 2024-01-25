@@ -3,7 +3,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var count: Int = 0
-    var toggle: Bool = true
+    var toggle: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()

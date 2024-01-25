@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpN-YY-Pdp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpN-YY-Pdp" userLabel="Increment">
                                 <rect key="frame" x="233" y="489" width="110" height="60"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
@@ -76,7 +76,7 @@
                                     <action selector="onTapStepButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mvn-c5-RGU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goR-mj-PLf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goR-mj-PLf" userLabel="Decriment">
                                 <rect key="frame" x="50" y="489" width="110" height="60"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
@@ -122,7 +122,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appstore" width="1024" height="1024"/>
+        <image name="appstore" width="75" height="75"/>
         <image name="minus.square.fill" catalog="system" width="128" height="114"/>
         <image name="plus.app.fill" catalog="system" width="128" height="114"/>
         <systemColor name="opaqueSeparatorColor">
