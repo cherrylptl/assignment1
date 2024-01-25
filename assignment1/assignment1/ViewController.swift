@@ -3,8 +3,8 @@ import UIKit
 class ViewController: UIViewController {
     
     var count: Int = 0
-    var toggle: Bool = false
-    
+    var stepCount: Int = 1
+
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -14,25 +14,24 @@ class ViewController: UIViewController {
     
     @IBAction func onTapMinusButton(_ sender: Any) {
         
-        count = toggle ? count - 2 : count - 1
-        
+        count = count - stepCount
         displayLable.text=String(count)
     }
     
     @IBAction func onTapPlusButton(_ sender: Any) {
         
-        count = toggle ? count + 2 : count + 1
-          
+        count = count + stepCount
         displayLable.text=String(count)
     }
     
     @IBAction func onTapStepButton(_ sender: Any) {
-        toggle = true
+        
+        stepCount = 2
     }
     
     @IBAction func onTapResetButton(_ sender: Any) {
         
-        toggle = false
+        stepCount = 1
         count = 0
         displayLable.text=String(count)
         
