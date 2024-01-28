@@ -11,7 +11,7 @@
 		136623852B5DA209007D19D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136623842B5DA209007D19D7 /* SceneDelegate.swift */; };
 		136623872B5DA209007D19D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136623862B5DA209007D19D7 /* ViewController.swift */; };
 		1366238A2B5DA209007D19D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136623882B5DA209007D19D7 /* Main.storyboard */; };
-		1366238D2B5DA209007D19D7 /* assigment1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1366238B2B5DA209007D19D7 /* assigment1.xcdatamodeld */; };
+		1366238D2B5DA209007D19D7 /* lab2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1366238B2B5DA209007D19D7 /* lab2.xcdatamodeld */; };
 		1366238F2B5DA20A007D19D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1366238E2B5DA20A007D19D7 /* Assets.xcassets */; };
 		136623922B5DA20A007D19D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136623902B5DA20A007D19D7 /* LaunchScreen.storyboard */; };
 		1366239D2B5DA20A007D19D7 /* assigment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366239C2B5DA20A007D19D7 /* assigment1Tests.swift */; };
@@ -108,7 +108,7 @@
 				1366238E2B5DA20A007D19D7 /* Assets.xcassets */,
 				136623902B5DA20A007D19D7 /* LaunchScreen.storyboard */,
 				136623932B5DA20A007D19D7 /* Info.plist */,
-				1366238B2B5DA209007D19D7 /* assigment1.xcdatamodeld */,
+				1366238B2B5DA209007D19D7 /* lab2.xcdatamodeld */,
 			);
 			path = lab2;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				136623872B5DA209007D19D7 /* ViewController.swift in Sources */,
 				136623832B5DA209007D19D7 /* AppDelegate.swift in Sources */,
 				136623852B5DA209007D19D7 /* SceneDelegate.swift in Sources */,
-				1366238D2B5DA209007D19D7 /* assigment1.xcdatamodeld in Sources */,
+				1366238D2B5DA209007D19D7 /* lab2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,13 +608,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1366238B2B5DA209007D19D7 /* assigment1.xcdatamodeld */ = {
+		1366238B2B5DA209007D19D7 /* lab2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				1366238C2B5DA209007D19D7 /* assigment1.xcdatamodel */,
 			);
 			currentVersion = 1366238C2B5DA209007D19D7 /* assigment1.xcdatamodel */;
-			path = assigment1.xcdatamodeld;
+			path = lab2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
